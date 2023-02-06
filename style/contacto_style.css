@@ -1,0 +1,58 @@
+.presentacion {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.parrafo_principal {
+    font-size: 1.5rem;
+}
+
+.mapa {
+    width: 50%;
+    height: 90%;
+
+}
+
+iframe {
+    width: 90%;
+    height: 100%;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+    border-radius: 5%;
+}
+
+.formulario {
+    width: 50%;
+    height: 90%;
+
+}
+
+.formulario input {
+    width: 60%;
+    height: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.32);
+    border-radius: 14px 14px 14px 14px;
+    margin: 2%;
+    text-align: left;
+    padding-left: 1%;
+    font-size: 1rem;
+    background-color: #e2d8d1d0;
+
+}
+
+
+form label i {
+    font-size: 150%;
+}
+
+#boton {
+    margin-top: 1%;
+    text-align: center;
+    background-color: #725b75e7;
+    margin-left: 6%;
+}
