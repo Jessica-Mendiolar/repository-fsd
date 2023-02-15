@@ -34,3 +34,21 @@ img {
     border-radius: 2px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.19);
 }
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .item {
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        height: auto;
+    }
+
+    .item {
+        width: 90%;
+        height: auto;
+    }
+}

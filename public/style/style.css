@@ -66,7 +66,7 @@ nav ul {
 nav ul li a {
     display: block;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px 0 5px 0px;
     justify-content: center;
     color: #c1a2a0;
     text-decoration: none;
@@ -96,4 +96,20 @@ footer ul {
     font-size: 20px;
     padding: 3px;
     color: #e3cebd;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .container {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:767px){
+    nav ul li{  
+         width: 100%;   
+    }
+    nav ul li a {
+       width: 100%; 
+    }
+   
 }

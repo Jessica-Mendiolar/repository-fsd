@@ -1,0 +1,76 @@
+.presentacion {
+    width: 18%;
+    height: 81%;
+    background-color: #725b75b7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+}
+
+.presentacion p {
+    width: 90%;
+    height: 80%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagen_principal {
+    width: 65%;
+    height: 90%;
+
+}
+
+.foto {
+    width: 95%;
+    height: 90%;
+    background-image: url("../img/food-g0ff8db15f_1920.jpg");
+    background-size: cover;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.58);
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .presentacion {
+        width: 90%;
+        height: 13vh;
+        margin-bottom: 2%;
+    }
+
+    .imagen_principal {
+        width: 90%;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .presentacion {
+        width: 90%;
+        height: auto;
+        margin-bottom: 2%;
+    }
+
+    .presentacion p {
+        width: 80%;
+        height: auto;
+    }
+
+    .imagen_principal {
+        width: 90%;
+        height: 35vh;
+    }
+
+    .foto {
+        width: 100%;
+        height: 30vh;
+    }
+}

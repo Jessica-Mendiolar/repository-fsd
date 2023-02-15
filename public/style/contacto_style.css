@@ -56,3 +56,59 @@ form label i {
     background-color: #725b75e7;
     margin-left: 6%;
 }
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .presentacion {
+        justify-content: space-around;
+    }
+
+    .mapa {
+        width: 90%;
+        height: 30vh;
+    }
+
+    .parrafo_principal {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulario {
+        margin-top: 5%;
+        width: 90%;
+        height: 40vh;
+    }
+
+    form {
+        margin-top: 2%;
+        width: 100%;
+
+    }
+
+    #boton {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        height: auto;
+    }
+
+    .mapa {
+        width: 85%;
+        height: 15vh;
+    }
+
+    .formulario p {
+        margin-top: 5%;
+        width: 100%;
+        height: 7vh;
+    }
+
+    .formulario {
+        width: auto;
+        height: auto;
+    }
+
+
+}
